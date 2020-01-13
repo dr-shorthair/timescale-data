@@ -1,7 +1,7 @@
 # baseURI: http://resource.geosciml.org/vocabulary/timescale/gts2018
-# imports: http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf
 # imports: http://resource.geosciml.org/ontology/timescale/gts/w3c
 # imports: http://www.opengis.net/ont/geosparql
+# imports: https://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf
 
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -13843,7 +13843,7 @@ ts:gts2018
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
-  dct:modified "2019-06-10"^^xsd:date ;
+  dct:modified "2020-01-13"^^xsd:date ;
   dct:replaces ts:isc2018 ;
   dct:rights "Original version Copyright © 2018 International Commission on Stratigraphy"@en ;
   dct:rights "RDF version Copyright © 2019 CSIRO, Arizona Geological Survey, IUGS"@en ;
@@ -13991,9 +13991,9 @@ ts:gts2018
   rdfs:seeAlso <http://stratigraphy.org/ICSchart/ChronostratChart2018-08.pdf> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
-  owl:imports <http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts/w3c> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
+  owl:imports <https://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf> ;
   owl:sameAs <http://resource.geosciml.org/classifierscheme/ics/2018/ischart> ;
   owl:versionInfo "isc2018:2019-06-10" ;
   skos:altLabel "International Chronostratigraphic Chart (2018)"@en ;
@@ -14013,6 +14013,7 @@ removed StratigraphicPoints, Ranks, TimePositions collections;
 nested sub-collections in GeochronologicEra"""@en ;
   skos:changeNote """2019-06-10 - This revision adjusts the nomenclature of units to use only chronologic terminology rather than stratigraphic terminology [e.g. Cambrian-Age 2 in place of Cambrian-Stage 2; Cambrian-Epoch 2 in place of Cambrian-Series 2; Early/Late in place of Lower/Upper (namely in application to Epoch/time units rather than their equivalent Series/stratigraphic units—e.g. Early Jurassic Epoch rather than Lower Jurassic Series)]; and the whole artefact is renamed ‘Geologic Time Scale’. 
 Also: changed samfl:shape --> geo:hasGeometry"""@en ;
+  skos:changeNote "2020-01-13 - fix errors in Permian/Carboniferous - see https://github.com/GeoscienceAustralia/geosciml.org/issues/3#issuecomment-560054965"@en ;
   skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950"@en ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt> for changes from prior versions"@en ;
   skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/GeoscienceAustralia/geosciml.org/blob/master/resource/static/vocabulary/timescale/\">maintained in GitHub</a></p>
