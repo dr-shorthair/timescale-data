@@ -1,7 +1,7 @@
 # baseURI: http://resource.geosciml.org/vocabulary/timescale/gts2018
+# imports: http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf
 # imports: http://resource.geosciml.org/ontology/timescale/gts/w3c
 # imports: http://www.opengis.net/ont/geosparql
-# imports: http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf
 
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
@@ -577,7 +577,6 @@ isc:Asselian
   time:intervalMetBy isc:Carboniferous ;
   time:intervalMetBy isc:Gzhelian ;
   time:intervalMetBy isc:Pennsylvanian ;
-  time:intervalMetBy isc:UpperMississippian ;
   time:intervalMetBy isc:UpperPennsylvanian ;
   time:intervalStarts isc:Cisuralian ;
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Asselian> ;
@@ -4752,6 +4751,7 @@ isc:Bashkirian
   time:intervalMeets isc:Moscovian ;
   time:intervalMetBy isc:Mississippian ;
   time:intervalMetBy isc:Serpukhovian ;
+  time:intervalMetBy isc:UpperMississippian ;
   foaf:primaryTopicOf <http://sweetontology.net/stateTimeGeologic/Bashkirian> ;
 .
 isc:Bathonian
@@ -5809,8 +5809,7 @@ isc:Capitanian
   skos:prefLabel "卡匹敦期"@zh ;
   time:hasBeginning isc:BaseCapitanian ;
   time:hasEnd isc:BaseLopingian ;
-  time:intervalDuring isc:Guadalupian ;
-  time:intervalIn isc:Guadalupian ;
+  time:intervalFinishes isc:Guadalupian ;
   time:intervalMeets isc:Lopingian ;
   time:intervalMeets isc:Wuchiapingian ;
   time:intervalMetBy isc:Wordian ;
@@ -11707,7 +11706,6 @@ isc:Roadian
   time:hasEnd isc:BaseWordian ;
   time:intervalIn isc:Guadalupian ;
   time:intervalMeets isc:Wordian ;
-  time:intervalMetBy isc:Capitanian ;
   time:intervalMetBy isc:Cisuralian ;
   time:intervalMetBy isc:Kungurian ;
   time:intervalStarts isc:Guadalupian ;
@@ -13993,9 +13991,9 @@ ts:gts2018
   rdfs:seeAlso <http://stratigraphy.org/ICSchart/ChronostratChart2018-08.pdf> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
+  owl:imports <http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts/w3c> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
-  owl:imports <http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf> ;
   owl:sameAs <http://resource.geosciml.org/classifierscheme/ics/2018/ischart> ;
   owl:versionInfo "isc2018:2019-06-10" ;
   skos:altLabel "International Chronostratigraphic Chart (2018)"@en ;
