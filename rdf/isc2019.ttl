@@ -1,15 +1,18 @@
-# baseURI: http://resource.geosciml.org/vocabulary/timescale/gts2018
+# baseURI: http://resource.geosciml.org/vocabulary/timescale/gts2019
+# imports: file:///W3C%20Resources/doap.rdf
 # imports: http://resource.geosciml.org/ontology/timescale/gts/w3c
 # imports: http://www.opengis.net/ont/geosparql
 # imports: https://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf
 
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix gts: <http://resource.geosciml.org/ontology/timescale/gts#> .
 @prefix isc: <http://resource.geosciml.org/classifier/ics/ischart/> .
 @prefix iso-trs: <http://def.isotc211.org/iso19108/2006/TemporalReferenceSystem#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sf: <http://www.opengis.net/ont/sf#> .
@@ -74,7 +77,7 @@ isc:Aalenian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.2.4"^^gts:EraCode ;
   skos:prefLabel "Aalen"@cs ;
   skos:prefLabel "Aalen"@fi ;
@@ -119,7 +122,7 @@ isc:Aeronian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.4.2"^^gts:EraCode ;
   skos:prefLabel "Aeron"@cs ;
   skos:prefLabel "Aeron"@fi ;
@@ -270,7 +273,7 @@ isc:Albian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Alb"@cs ;
   skos:prefLabel "Alb"@fi ;
@@ -315,7 +318,7 @@ isc:Anisian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Anis"@cs ;
   skos:prefLabel "Anis"@fi ;
@@ -360,7 +363,7 @@ isc:Aptian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Apt"@cs ;
   skos:prefLabel "Apt"@fi ;
@@ -404,7 +407,7 @@ isc:Aquitanian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.2.6"^^gts:EraCode ;
   skos:prefLabel "Akvitanis"@lt ;
   skos:prefLabel "Akwitan"@pl ;
@@ -447,7 +450,7 @@ isc:Archean
   rdfs:label "Archean Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Archean> ;
   skos:broader isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Eoarchean ;
   skos:narrower isc:Mesoarchean ;
   skos:narrower isc:Neoarchean ;
@@ -503,7 +506,7 @@ isc:Artinskian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.3.2"^^gts:EraCode ;
   skos:prefLabel "Artinsk"@cs ;
   skos:prefLabel "Artinsk"@fi ;
@@ -547,7 +550,7 @@ isc:Asselian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.3.4"^^gts:EraCode ;
   skos:prefLabel "Aselis"@lt ;
   skos:prefLabel "Aselsk"@pl ;
@@ -594,7 +597,7 @@ isc:Bajocian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Bajoc"@fi ;
   skos:prefLabel "Bajoc"@no ;
@@ -638,7 +641,7 @@ isc:Barremian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Baremis"@lt ;
   skos:prefLabel "Barrem"@cs ;
@@ -682,7 +685,7 @@ isc:Bartonian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Barton"@cs ;
   skos:prefLabel "Barton"@fi ;
@@ -822,7 +825,7 @@ isc:BaseArchean
   a time:Instant ;
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Archean"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Archean"@en ;
   time:inTemporalPosition isc:BaseArcheanTime ;
 .
@@ -1457,7 +1460,7 @@ isc:BaseCryogenian
   a time:Instant ;
   gts:ratifiedGSSP false ;
   rdfs:label "Base of Cryogenian"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Cryogenian"@en ;
   time:inTemporalPosition isc:BaseCryogenianTime ;
 .
@@ -1600,7 +1603,7 @@ isc:BaseEctasian
   a time:Instant ;
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Ectasian"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Ectasian"@en ;
   time:inTemporalPosition isc:BaseEctasianTime ;
 .
@@ -2835,7 +2838,7 @@ isc:BaseMesoarchean
   a time:Instant ;
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Mesoarchean"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Mesoarchean"@en ;
   time:inTemporalPosition isc:BaseMesoarcheanTime ;
 .
@@ -2852,7 +2855,7 @@ isc:BaseMesoproterozoic
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Mesoproterozoic"@en ;
   skos:altLabel "Base of Calymmian"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Mesoproterozoic"@en ;
   time:inTemporalPosition isc:BaseMesoproterozoicTime ;
 .
@@ -3219,7 +3222,7 @@ isc:BaseNeoarchean
   a time:Instant ;
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Neoarchean"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Neoarchean"@en ;
   time:inTemporalPosition isc:BaseNeoarcheanTime ;
 .
@@ -3273,7 +3276,7 @@ isc:BaseNeoproterozoic
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Neoproterozoic"@en ;
   skos:altLabel "Base of Tonian"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Neoproterozoic"@en ;
   time:inTemporalPosition isc:BaseNeoproterozoicTime ;
 .
@@ -3479,7 +3482,7 @@ isc:BasePaleoarchean
   a time:Instant ;
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Paleoarchean"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Paleoarchean"@en ;
   time:inTemporalPosition isc:BasePaleoarcheanTime ;
 .
@@ -3848,7 +3851,7 @@ isc:BaseProterozoic
   rdfs:label "Base of Proterozoic"@en ;
   skos:altLabel "Base of Paleoproterozoic"@en ;
   skos:altLabel "Base of Siderian"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Proterozoic"@en ;
   time:inTemporalPosition isc:BaseProterozoicTime ;
 .
@@ -4183,7 +4186,7 @@ isc:BaseStenian
   a time:Instant ;
   gts:ratifiedGSSP true ;
   rdfs:label "Base of Stenian"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Base of Stenian"@en ;
   time:inTemporalPosition isc:BaseStenianTime ;
 .
@@ -4721,7 +4724,7 @@ isc:Bashkirian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.1.3"^^gts:EraCode ;
   skos:prefLabel "Bashkir"@cs ;
   skos:prefLabel "Bashkir"@fi ;
@@ -4767,7 +4770,7 @@ isc:Bathonian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Barthoniën"@nl ;
   skos:prefLabel "Bathon"@cs ;
@@ -4811,7 +4814,7 @@ isc:Berriasian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.2.6"^^gts:EraCode ;
   skos:prefLabel "Berias"@pl ;
   skos:prefLabel "Beriasis"@lt ;
@@ -5211,7 +5214,7 @@ isc:Boundary-unspecified
   skos:narrower isc:FormationOfEarth ;
   skos:narrower isc:Present ;
   skos:prefLabel "Geochronologic Boundaries"@en ;
-  skos:topConceptOf ts:gts2018 ;
+  skos:topConceptOf ts:gts2019 ;
 .
 isc:Burdigalian
   a gts:Age ;
@@ -5226,7 +5229,7 @@ isc:Burdigalian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.2.5"^^gts:EraCode ;
   skos:prefLabel "Burdigal"@cs ;
   skos:prefLabel "Burdigal"@fi ;
@@ -5270,7 +5273,7 @@ isc:Calabrian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Calabr"@cs ;
   skos:prefLabel "Calabria"@fi ;
@@ -5314,7 +5317,7 @@ isc:Callovian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Callov"@cs ;
   skos:prefLabel "Callov"@fi ;
@@ -5358,7 +5361,7 @@ isc:Calymmian
   skos:broader isc:Mesoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Calym"@fi ;
   skos:prefLabel "Calymiano"@pt ;
@@ -5401,7 +5404,7 @@ isc:Cambrian
   owl:sameAs <http://dbpedia.org/resource/Cambrian> ;
   skos:broader isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:CambrianSeries2 ;
   skos:narrower isc:Furongian ;
   skos:narrower isc:Miaolingian ;
@@ -5466,7 +5469,7 @@ isc:CambrianSeries2
   skos:broader isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:CambrianStage3 ;
   skos:narrower isc:CambrianStage4 ;
   skos:notation "a1.1.3.6.3"^^gts:EraCode ;
@@ -5540,7 +5543,7 @@ isc:CambrianStage10
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.1.1"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 10"@en ;
   skos:prefLabel "Cambrien-Etage 10"@fr ;
@@ -5584,7 +5587,7 @@ isc:CambrianStage2
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.4.1"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 2"@en ;
   skos:prefLabel "Cambrien-Etage 2"@fr ;
@@ -5627,7 +5630,7 @@ isc:CambrianStage3
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.3.2"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 3"@en ;
   skos:prefLabel "Cambrien-Etage 3"@fr ;
@@ -5670,7 +5673,7 @@ isc:CambrianStage4
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.3.1"^^gts:EraCode ;
   skos:prefLabel "Cambrian-Stage 4"@en ;
   skos:prefLabel "Cambrien-Etage 4"@fr ;
@@ -5740,7 +5743,7 @@ isc:Campanian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Campan"@cs ;
   skos:prefLabel "Campan"@fi ;
@@ -5784,7 +5787,7 @@ isc:Capitanian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Capitan"@cs ;
   skos:prefLabel "Capitan"@fi ;
@@ -5826,7 +5829,7 @@ isc:Carboniferous
   owl:sameAs <http://dbpedia.org/resource/Carboniferous> ;
   skos:broader isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Mississippian ;
   skos:narrower isc:Pennsylvanian ;
   skos:narrowerTransitive isc:Bashkirian ;
@@ -5891,7 +5894,7 @@ isc:Carnian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.1.3"^^gts:EraCode ;
   skos:prefLabel "Carn"@cs ;
   skos:prefLabel "Carn"@fi ;
@@ -5936,7 +5939,7 @@ isc:Cenomanian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.1.6"^^gts:EraCode ;
   skos:prefLabel "Cenoman"@cs ;
   skos:prefLabel "Cenoman"@fi ;
@@ -5978,7 +5981,7 @@ isc:Cenozoic
   rdfs:label "Cenozoic Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Cenozoic> ;
   skos:broader isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Neogene ;
   skos:narrower isc:Paleogene ;
   skos:narrower isc:Quaternary ;
@@ -6063,7 +6066,7 @@ isc:Changhsingian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Changhsing"@cs ;
   skos:prefLabel "Changhsing"@fi ;
@@ -6110,7 +6113,7 @@ isc:Chattian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Chat"@cs ;
   skos:prefLabel "Chatiano"@pt ;
@@ -6155,7 +6158,7 @@ isc:Cisuralian
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Artinskian ;
   skos:narrower isc:Asselian ;
   skos:narrower isc:Kungurian ;
@@ -6212,7 +6215,7 @@ isc:Coniacian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.1.4"^^gts:EraCode ;
   skos:prefLabel "Conaciën"@nl ;
   skos:prefLabel "Coni"@es ;
@@ -6254,7 +6257,7 @@ isc:Cretaceous
   owl:sameAs <http://dbpedia.org/resource/Cretaceous> ;
   skos:broader isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerCretaceous ;
   skos:narrower isc:UpperCretaceous ;
   skos:narrowerTransitive isc:Albian ;
@@ -6318,7 +6321,7 @@ isc:Cryogenian
   skos:broader isc:Neoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Criogeniano"@pt ;
   skos:prefLabel "Criogeniense"@es ;
@@ -6362,7 +6365,7 @@ isc:Danian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.3.3"^^gts:EraCode ;
   skos:prefLabel "Dan"@cs ;
   skos:prefLabel "Dan"@fi ;
@@ -6409,7 +6412,7 @@ isc:Dapingian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.2.2"^^gts:EraCode ;
   skos:prefLabel "Daping"@cs ;
   skos:prefLabel "Daping"@fi ;
@@ -6454,7 +6457,7 @@ isc:Darriwilian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.2.1"^^gts:EraCode ;
   skos:prefLabel "Daewillium"@no ;
   skos:prefLabel "Darivilis"@lt ;
@@ -6497,7 +6500,7 @@ isc:Devonian
   owl:sameAs <http://dbpedia.org/resource/Devonian> ;
   skos:broader isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerDevonian ;
   skos:narrower isc:MiddleDevonian ;
   skos:narrower isc:UpperDevonian ;
@@ -6558,7 +6561,7 @@ isc:Drumian
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.2.2"^^gts:EraCode ;
   skos:prefLabel "Drum"@cs ;
   skos:prefLabel "Drum"@fi ;
@@ -6601,7 +6604,7 @@ isc:Ectasian
   skos:broader isc:Mesoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Ectas"@cs ;
   skos:prefLabel "Ectas"@et ;
@@ -6645,7 +6648,7 @@ isc:Ediacaran
   skos:broader isc:Neoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Ediacar"@cs ;
   skos:prefLabel "Ediacar"@fi ;
@@ -6693,7 +6696,7 @@ isc:Eifelian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.2.2"^^gts:EraCode ;
   skos:prefLabel "Eifel"@cs ;
   skos:prefLabel "Eifel"@fi ;
@@ -6738,7 +6741,7 @@ isc:Emsian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Ems"@cs ;
   skos:prefLabel "Ems"@fi ;
@@ -6781,7 +6784,7 @@ isc:Eoarchean
   owl:sameAs <http://dbpedia.org/resource/Eoarchean> ;
   skos:broader isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.2.4"^^gts:EraCode ;
   skos:prefLabel "Eo-archaicum"@nl ;
   skos:prefLabel "Eoarcaico"@es ;
@@ -6826,7 +6829,7 @@ isc:Eocene
   skos:broader isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Bartonian ;
   skos:narrower isc:Lutetian ;
   skos:narrower isc:Priabonian ;
@@ -6950,7 +6953,7 @@ isc:Famennian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Famen"@cs ;
   skos:prefLabel "Famen"@pl ;
@@ -6997,7 +7000,7 @@ isc:Floian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.3.1"^^gts:EraCode ;
   skos:prefLabel "Flo"@cs ;
   skos:prefLabel "Flo"@fi ;
@@ -7034,7 +7037,7 @@ isc:FormationOfEarth
   a time:Instant ;
   gts:positionalUncertainty isc:FormationOfEarthUncertainty ;
   rdfs:label "Formation of the Earth"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "Formation of the Earth"@en ;
   time:inTemporalPosition isc:FormationOfEarthTime ;
 .
@@ -7064,7 +7067,7 @@ isc:Fortunian
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.4.2"^^gts:EraCode ;
   skos:prefLabel "Fortun"@cs ;
   skos:prefLabel "Fortun"@fi ;
@@ -7111,7 +7114,7 @@ isc:Frasnian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Fran"@pl ;
   skos:prefLabel "Franis"@lt ;
@@ -7155,7 +7158,7 @@ isc:Furongian
   skos:broader isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:CambrianStage10 ;
   skos:narrower isc:Jiangshanian ;
   skos:narrower isc:Paibian ;
@@ -7208,7 +7211,7 @@ isc:Gelasian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.2.4"^^gts:EraCode ;
   skos:prefLabel "Gelas"@cs ;
   skos:prefLabel "Gelas"@fi ;
@@ -7266,7 +7269,7 @@ isc:Givetian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Givet"@cs ;
   skos:prefLabel "Givet"@et ;
@@ -7311,7 +7314,7 @@ isc:Gorstian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.2.2"^^gts:EraCode ;
   skos:prefLabel "Gorst"@cs ;
   skos:prefLabel "Gorst"@fi ;
@@ -7356,7 +7359,7 @@ isc:Greenlandian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.1.3"^^gts:EraCode ;
   skos:prefLabel "Greenlandian"@en ;
   time:hasBeginning isc:BaseHolocene ;
@@ -7380,7 +7383,7 @@ isc:Guadalupian
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Capitanian ;
   skos:narrower isc:Roadian ;
   skos:narrower isc:Wordian ;
@@ -7432,7 +7435,7 @@ isc:Guzhangian
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.2.1"^^gts:EraCode ;
   skos:prefLabel "Guzhang"@cs ;
   skos:prefLabel "Guzhang"@fi ;
@@ -7478,7 +7481,7 @@ isc:Gzhelian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Gzeliano"@pt ;
   skos:prefLabel "Gzeliense"@es ;
@@ -7521,7 +7524,7 @@ isc:Hadean
   rdfs:label "Hadean Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Hadean> ;
   skos:broader isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.3"^^gts:EraCode ;
   skos:prefLabel "Hadaikum"@de ;
   skos:prefLabel "Hadea"@fi ;
@@ -7564,7 +7567,7 @@ isc:Hauterivian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.2.4"^^gts:EraCode ;
   skos:prefLabel "Hauteriv"@cs ;
   skos:prefLabel "Hauteriv"@fi ;
@@ -7608,7 +7611,7 @@ isc:Hettangian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.3.4"^^gts:EraCode ;
   skos:prefLabel "Hetang"@pl ;
   skos:prefLabel "Hetangiano"@pt ;
@@ -7654,7 +7657,7 @@ isc:Hirnantian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.1.1"^^gts:EraCode ;
   skos:prefLabel "Hirnant"@cs ;
   skos:prefLabel "Hirnant"@fi ;
@@ -7699,7 +7702,7 @@ isc:Holocene
   skos:broader isc:Quaternary ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Greenlandian ;
   skos:narrower isc:Meghalayan ;
   skos:narrower isc:Northgrippian ;
@@ -7749,7 +7752,7 @@ isc:Homerian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.3.1"^^gts:EraCode ;
   skos:prefLabel "Homer"@cs ;
   skos:prefLabel "Homer"@fi ;
@@ -7794,7 +7797,7 @@ isc:Induan
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Ind"@pl ;
   skos:prefLabel "Indis"@lt ;
@@ -7886,7 +7889,7 @@ isc:Jiangshanian
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.1.2"^^gts:EraCode ;
   skos:prefLabel "Jiangshanian"@en ;
   skos:prefLabel "江山期"@zh ;
@@ -7908,7 +7911,7 @@ isc:Jurassic
   owl:sameAs <http://dbpedia.org/resource/Jurassic> ;
   skos:broader isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerJurassic ;
   skos:narrower isc:MiddleJurassic ;
   skos:narrower isc:UpperJurassic ;
@@ -7974,7 +7977,7 @@ isc:Kasimovian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Kasimov"@cs ;
   skos:prefLabel "Kasimov"@fi ;
@@ -8019,7 +8022,7 @@ isc:Katian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.1.2"^^gts:EraCode ;
   skos:prefLabel "Kat"@cs ;
   skos:prefLabel "Kat"@fi ;
@@ -8063,7 +8066,7 @@ isc:Kimmeridgian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Kimeridgiano"@pt ;
   skos:prefLabel "Kimeridis"@lt ;
@@ -8107,7 +8110,7 @@ isc:Kungurian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.3.1"^^gts:EraCode ;
   skos:prefLabel "Kungur"@cs ;
   skos:prefLabel "Kungur"@fi ;
@@ -8152,7 +8155,7 @@ isc:Ladinian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Ladin"@cs ;
   skos:prefLabel "Ladin"@fi ;
@@ -8197,7 +8200,7 @@ isc:Langhian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.2.4"^^gts:EraCode ;
   skos:prefLabel "Lang"@pl ;
   skos:prefLabel "Langh"@cs ;
@@ -8240,7 +8243,7 @@ isc:Llandovery
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Aeronian ;
   skos:narrower isc:Rhuddanian ;
   skos:narrower isc:Telychian ;
@@ -8293,7 +8296,7 @@ isc:Lochkovian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.3.3"^^gts:EraCode ;
   skos:prefLabel "Lochkov"@cs ;
   skos:prefLabel "Lochkov"@fi ;
@@ -8337,7 +8340,7 @@ isc:Lopingian
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Changhsingian ;
   skos:narrower isc:Wuchiapingian ;
   skos:notation "a1.1.3.1.1"^^gts:EraCode ;
@@ -8408,7 +8411,7 @@ isc:LowerCretaceous
   skos:broader isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Albian ;
   skos:narrower isc:Aptian ;
   skos:narrower isc:Barremian ;
@@ -8485,7 +8488,7 @@ isc:LowerDevonian
   skos:broader isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Emsian ;
   skos:narrower isc:Lochkovian ;
   skos:narrower isc:Pragian ;
@@ -8557,7 +8560,7 @@ isc:LowerJurassic
   skos:broader isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Hettangian ;
   skos:narrower isc:Pliensbachian ;
   skos:narrower isc:Sinemurian ;
@@ -8615,7 +8618,7 @@ isc:LowerMississippian
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Tournaisian ;
   skos:notation "x1.1.3.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Early Mississippian"@en ;
@@ -8666,7 +8669,7 @@ isc:LowerOrdovician
   skos:broader isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Floian ;
   skos:narrower isc:Tremadocian ;
   skos:notation "a1.1.3.5.3"^^gts:EraCode ;
@@ -8720,7 +8723,7 @@ isc:LowerPennsylvanian
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Bashkirian ;
   skos:notation "x1.1.3.2.1.3"^^gts:EraCode ;
   skos:prefLabel "Early Pennsylvanian"@en ;
@@ -8770,7 +8773,7 @@ isc:LowerTriassic
   skos:broader isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Induan ;
   skos:narrower isc:Olenekian ;
   skos:notation "a1.1.2.3.3"^^gts:EraCode ;
@@ -8822,7 +8825,7 @@ isc:Ludfordian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.2.1"^^gts:EraCode ;
   skos:prefLabel "Ludford"@cs ;
   skos:prefLabel "Ludford"@fi ;
@@ -8865,7 +8868,7 @@ isc:Ludlow
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Gorstian ;
   skos:narrower isc:Ludfordian ;
   skos:notation "a1.1.3.4.2"^^gts:EraCode ;
@@ -8914,7 +8917,7 @@ isc:Lutetian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.2.3"^^gts:EraCode ;
   skos:prefLabel "Litetium"@no ;
   skos:prefLabel "Liutetis"@lt ;
@@ -8958,7 +8961,7 @@ isc:Maastrichtian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Maastricht"@cs ;
   skos:prefLabel "Maastricht"@fi ;
@@ -9005,7 +9008,7 @@ isc:Meghalayan
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.1.1"^^gts:EraCode ;
   skos:prefLabel "Meghalayan"@en ;
   time:hasBeginning isc:BaseMeghalayan ;
@@ -9026,7 +9029,7 @@ isc:Mesoarchean
   owl:sameAs <http://dbpedia.org/resource/Mesoarchean> ;
   skos:broader isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.2.2"^^gts:EraCode ;
   skos:prefLabel "Meso-archaicum"@nl ;
   skos:prefLabel "Mesoarcaico"@es ;
@@ -9070,7 +9073,7 @@ isc:Mesoproterozoic
   owl:sameAs <http://dbpedia.org/resource/Mesoproterozoic> ;
   skos:broader isc:Proterozoic ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Calymmian ;
   skos:narrower isc:Ectasian ;
   skos:narrower isc:Stenian ;
@@ -9119,7 +9122,7 @@ isc:Mesozoic
   rdfs:label "Mesozoic Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Mesozoic> ;
   skos:broader isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Cretaceous ;
   skos:narrower isc:Jurassic ;
   skos:narrower isc:Triassic ;
@@ -9213,7 +9216,7 @@ isc:Messinian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Mesinis"@lt ;
   skos:prefLabel "Messin"@cs ;
@@ -9278,7 +9281,7 @@ isc:Miaolingian
   skos:broader isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Drumian ;
   skos:narrower isc:Guzhangian ;
   skos:narrower isc:Wuliuan ;
@@ -9315,7 +9318,7 @@ isc:MiddleDevonian
   skos:broader isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Eifelian ;
   skos:narrower isc:Givetian ;
   skos:notation "a1.1.3.3.2"^^gts:EraCode ;
@@ -9366,7 +9369,7 @@ isc:MiddleJurassic
   skos:broader isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Aalenian ;
   skos:narrower isc:Bajocian ;
   skos:narrower isc:Bathonian ;
@@ -9422,7 +9425,7 @@ isc:MiddleMississippian
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Visean ;
   skos:notation "x1.1.3.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Middle Mississippian"@en ;
@@ -9453,7 +9456,7 @@ isc:MiddleOrdovician
   skos:broader isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Dapingian ;
   skos:narrower isc:Darriwilian ;
   skos:notation "a1.1.3.5.2"^^gts:EraCode ;
@@ -9505,7 +9508,7 @@ isc:MiddlePennsylvanian
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Moscovian ;
   skos:notation "x1.1.3.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Middle Pennsylvanian"@en ;
@@ -9557,7 +9560,7 @@ isc:MiddlePleistocene
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
   skos:historyNote "Previously known as 'Ionian'"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Kesk-Pleistotseen"@et ;
   skos:prefLabel "Keski-Pleistoseeni"@fi ;
@@ -9600,7 +9603,7 @@ isc:MiddleTriassic
   skos:broader isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Anisian ;
   skos:narrower isc:Ladinian ;
   skos:notation "a1.1.2.3.2"^^gts:EraCode ;
@@ -9649,7 +9652,7 @@ isc:Miocene
   skos:broader isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Aquitanian ;
   skos:narrower isc:Burdigalian ;
   skos:narrower isc:Langhian ;
@@ -9707,7 +9710,7 @@ isc:Mississippian
   skos:broader isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerMississippian ;
   skos:narrower isc:MiddleMississippian ;
   skos:narrower isc:UpperMississippian ;
@@ -9766,7 +9769,7 @@ isc:Moscovian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Pennsylvanian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Moscov"@cs ;
   skos:prefLabel "Moscovian"@en ;
@@ -9809,7 +9812,7 @@ isc:Neoarchean
   owl:sameAs <http://dbpedia.org/resource/Neoarchean> ;
   skos:broader isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.2.1"^^gts:EraCode ;
   skos:prefLabel "Neo-archaicum"@nl ;
   skos:prefLabel "Neoarcaico"@es ;
@@ -9855,7 +9858,7 @@ isc:Neogene
   owl:sameAs <http://dbpedia.org/resource/Neogene> ;
   skos:broader isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Miocene ;
   skos:narrower isc:Pliocene ;
   skos:narrowerTransitive isc:Aquitanian ;
@@ -9913,7 +9916,7 @@ isc:Neoproterozoic
   owl:sameAs <http://dbpedia.org/resource/Neoproterozoic> ;
   skos:broader isc:Proterozoic ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Cryogenian ;
   skos:narrower isc:Ediacaran ;
   skos:narrower isc:Tonian ;
@@ -9968,7 +9971,7 @@ isc:Norian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Nor"@cs ;
   skos:prefLabel "Nor"@fi ;
@@ -10012,7 +10015,7 @@ isc:Northgrippian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.1.2"^^gts:EraCode ;
   skos:prefLabel "Northgrippian"@en ;
   time:hasBeginning isc:BaseNorthgrippian ;
@@ -10036,7 +10039,7 @@ isc:Olenekian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Olenek"@cs ;
   skos:prefLabel "Olenek"@fi ;
@@ -10080,7 +10083,7 @@ isc:Oligocene
   skos:broader isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Chattian ;
   skos:narrower isc:Rupelian ;
   skos:notation "a1.1.1.3.1"^^gts:EraCode ;
@@ -10129,7 +10132,7 @@ isc:Ordovician
   owl:sameAs <http://dbpedia.org/resource/Ordovician> ;
   skos:broader isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerOrdovician ;
   skos:narrower isc:MiddleOrdovician ;
   skos:narrower isc:UpperOrdovician ;
@@ -10189,7 +10192,7 @@ isc:Orosirian
   skos:broader isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.3.2"^^gts:EraCode ;
   skos:prefLabel "Orosir"@cs ;
   skos:prefLabel "Orosir"@et ;
@@ -10233,7 +10236,7 @@ isc:Oxfordian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.1.3"^^gts:EraCode ;
   skos:prefLabel "Oksford"@pl ;
   skos:prefLabel "Oksfordis"@lt ;
@@ -10278,7 +10281,7 @@ isc:Paibian
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.1.3"^^gts:EraCode ;
   skos:prefLabel "Paib"@cs ;
   skos:prefLabel "Paib"@fi ;
@@ -10321,7 +10324,7 @@ isc:Paleoarchean
   owl:sameAs <http://dbpedia.org/resource/Paleoarchean> ;
   skos:broader isc:Archean ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.2.3"^^gts:EraCode ;
   skos:prefLabel "Palaeoarchaean"@en-gb ;
   skos:prefLabel "Paleo-archaicum"@nl ;
@@ -10366,7 +10369,7 @@ isc:Paleocene
   skos:broader isc:Paleogene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Danian ;
   skos:narrower isc:Selandian ;
   skos:narrower isc:Thanetian ;
@@ -10420,7 +10423,7 @@ isc:Paleogene
   owl:sameAs <http://dbpedia.org/resource/Paleogene> ;
   skos:broader isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Eocene ;
   skos:narrower isc:Oligocene ;
   skos:narrower isc:Paleocene ;
@@ -10484,7 +10487,7 @@ isc:Paleoproterozoic
   owl:sameAs <http://dbpedia.org/resource/Paleoproterozoic> ;
   skos:broader isc:Proterozoic ;
   skos:broaderTransitive isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Orosirian ;
   skos:narrower isc:Rhyacian ;
   skos:narrower isc:Siderian ;
@@ -10537,7 +10540,7 @@ isc:Paleozoic
   rdfs:label "Paleozoic Era"@en ;
   owl:sameAs <http://dbpedia.org/resource/Paleozoic> ;
   skos:broader isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Cambrian ;
   skos:narrower isc:Carboniferous ;
   skos:narrower isc:Devonian ;
@@ -10672,7 +10675,7 @@ isc:Pennsylvanian
   skos:broader isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerPennsylvanian ;
   skos:narrower isc:MiddlePennsylvanian ;
   skos:narrower isc:UpperPennsylvanian ;
@@ -10754,7 +10757,7 @@ isc:Permian
   owl:sameAs <http://dbpedia.org/resource/Permian> ;
   skos:broader isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Cisuralian ;
   skos:narrower isc:Guadalupian ;
   skos:narrower isc:Lopingian ;
@@ -10816,7 +10819,7 @@ isc:Phanerozoic
   rdfs:comment "younger bound -0.0 Ma"@en ;
   rdfs:label "Phanerozoic Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Phanerozoic> ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Cenozoic ;
   skos:narrower isc:Mesozoic ;
   skos:narrower isc:Paleozoic ;
@@ -10995,7 +10998,7 @@ isc:Phanerozoic
   skos:prefLabel "Фанерозой"@bg ;
   skos:prefLabel "显生宙"@zh ;
   skos:prefLabel "顕生代"@ja ;
-  skos:topConceptOf ts:gts2018 ;
+  skos:topConceptOf ts:gts2019 ;
   time:hasBeginning isc:BasePhanerozoic ;
   time:hasEnd isc:Present ;
   time:intervalContains isc:Mesozoic ;
@@ -11020,7 +11023,7 @@ isc:Piacenzian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.1.1"^^gts:EraCode ;
   skos:prefLabel "Piacenz"@cs ;
   skos:prefLabel "Piacenz"@fi ;
@@ -11065,7 +11068,7 @@ isc:Pleistocene
   skos:broader isc:Quaternary ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Calabrian ;
   skos:narrower isc:Gelasian ;
   skos:narrower isc:MiddlePleistocene ;
@@ -11119,7 +11122,7 @@ isc:Pliensbachian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.3.2"^^gts:EraCode ;
   skos:prefLabel "Plienbach"@fi ;
   skos:prefLabel "Pliensbach"@cs ;
@@ -11162,7 +11165,7 @@ isc:Pliocene
   skos:broader isc:Neogene ;
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Piacenzian ;
   skos:narrower isc:Zanclean ;
   skos:notation "a1.1.1.2.1"^^gts:EraCode ;
@@ -11213,7 +11216,7 @@ isc:Pragian
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Prag"@cs ;
   skos:prefLabel "Prag"@pl ;
@@ -11254,7 +11257,7 @@ isc:Precambrian
   rdfs:comment "younger bound -541.0 +|-1.0 Ma"@en ;
   rdfs:label "Precambrian Supereon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Precambrian> ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Archean ;
   skos:narrower isc:Hadean ;
   skos:narrower isc:Proterozoic ;
@@ -11297,7 +11300,7 @@ isc:Precambrian
   skos:prefLabel "Прекамбрий"@bg ;
   skos:prefLabel "先カンブリア時代"@ja ;
   skos:prefLabel "前寒武纪"@zh ;
-  skos:topConceptOf ts:gts2018 ;
+  skos:topConceptOf ts:gts2019 ;
   time:hasBeginning isc:FormationOfEarth ;
   time:hasEnd isc:BasePhanerozoic ;
   time:intervalContains isc:Archean ;
@@ -11315,7 +11318,7 @@ isc:Present
   a skos:Concept ;
   a time:Instant ;
   rdfs:label "The Present"@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:prefLabel "The Present"@en ;
   time:inTemporalPosition isc:PresentTime ;
   time:inXSDDate "1950-01-01"^^xsd:date ;
@@ -11338,7 +11341,7 @@ isc:Priabonian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.2.1"^^gts:EraCode ;
   skos:prefLabel "Priabon"@cs ;
   skos:prefLabel "Priabon"@fi ;
@@ -11382,7 +11385,7 @@ isc:Pridoli
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.1"^^gts:EraCode ;
   skos:prefLabel "Pridoli"@da ;
   skos:prefLabel "Pridoli"@de ;
@@ -11426,7 +11429,7 @@ isc:Proterozoic
   rdfs:label "Proterozoic Eon"@en ;
   owl:sameAs <http://dbpedia.org/resource/Proterozoic> ;
   skos:broader isc:Precambrian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Mesoproterozoic ;
   skos:narrower isc:Neoproterozoic ;
   skos:narrower isc:Paleoproterozoic ;
@@ -11489,7 +11492,7 @@ isc:Quaternary
   owl:sameAs <http://dbpedia.org/resource/Quaternary> ;
   skos:broader isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Holocene ;
   skos:narrower isc:Pleistocene ;
   skos:narrowerTransitive isc:Calabrian ;
@@ -11545,7 +11548,7 @@ isc:Rhaetian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Triassic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.3.1.1"^^gts:EraCode ;
   skos:prefLabel "Reciano"@pt ;
   skos:prefLabel "Retis"@lt ;
@@ -11591,7 +11594,7 @@ isc:Rhuddanian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.4.3"^^gts:EraCode ;
   skos:prefLabel "Rhuddan"@cs ;
   skos:prefLabel "Rhuddan"@fi ;
@@ -11636,7 +11639,7 @@ isc:Rhyacian
   skos:broader isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.3.3"^^gts:EraCode ;
   skos:prefLabel "Rhyac"@et ;
   skos:prefLabel "Rhyacian"@en ;
@@ -11680,7 +11683,7 @@ isc:Roadian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.2.3"^^gts:EraCode ;
   skos:prefLabel "Road"@cs ;
   skos:prefLabel "Road"@fi ;
@@ -11725,7 +11728,7 @@ isc:Rupelian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.1.2"^^gts:EraCode ;
   skos:prefLabel "Rupel"@cs ;
   skos:prefLabel "Rupel"@fi ;
@@ -11770,7 +11773,7 @@ isc:Sakmarian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.3.3"^^gts:EraCode ;
   skos:prefLabel "Sakmar"@cs ;
   skos:prefLabel "Sakmar"@fi ;
@@ -11814,7 +11817,7 @@ isc:Sandbian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.1.3"^^gts:EraCode ;
   skos:prefLabel "Sandb"@fi ;
   skos:prefLabel "Sandb"@pl ;
@@ -11859,7 +11862,7 @@ isc:Santonian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.1.3"^^gts:EraCode ;
   skos:prefLabel "Santon"@cs ;
   skos:prefLabel "Santon"@fi ;
@@ -11903,7 +11906,7 @@ isc:Selandian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.3.2"^^gts:EraCode ;
   skos:prefLabel "Seland"@cs ;
   skos:prefLabel "Seland"@fi ;
@@ -11949,7 +11952,7 @@ isc:Serpukhovian
   skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Serpuchovis"@lt ;
   skos:prefLabel "Serpuchow"@pl ;
@@ -11996,7 +11999,7 @@ isc:Serravallian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Seravalis"@lt ;
   skos:prefLabel "Serraval"@cs ;
@@ -12040,7 +12043,7 @@ isc:Sheinwoodian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.3.2"^^gts:EraCode ;
   skos:prefLabel "Sheinwood"@cs ;
   skos:prefLabel "Sheinwood"@fi ;
@@ -12084,7 +12087,7 @@ isc:Siderian
   skos:broader isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.3.4"^^gts:EraCode ;
   skos:prefLabel "Sider"@cs ;
   skos:prefLabel "Sider"@et ;
@@ -12128,7 +12131,7 @@ isc:Silurian
   skos:broader isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:definition "The Silurian is a geologic period and system that extends from the end of the Ordovician Period, about 443.7 ± 1.5 million years ago (mya), to the beginning of the Devonian Period, about 416.0 ± 2.8 mya. As with other geologic periods, the rock beds that define the period's start and end are well identified, but the exact dates are uncertain by several million years. The Base of the Silurian is set at a major extinction event when 60% of marine species were wiped out."@en ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Llandovery ;
   skos:narrower isc:Ludlow ;
   skos:narrower isc:Pridoli ;
@@ -12191,7 +12194,7 @@ isc:Sinemurian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.3.3"^^gts:EraCode ;
   skos:prefLabel "Sinemiūris"@lt ;
   skos:prefLabel "Sinemur"@cs ;
@@ -12234,7 +12237,7 @@ isc:Statherian
   skos:broader isc:Paleoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.3.1"^^gts:EraCode ;
   skos:prefLabel "Stater"@pl ;
   skos:prefLabel "Stateriano"@pt ;
@@ -12278,7 +12281,7 @@ isc:Stenian
   skos:broader isc:Mesoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Esteniense"@es ;
   skos:prefLabel "Sten"@cs ;
@@ -12420,7 +12423,7 @@ isc:Stratotype-unspecified
   skos:narrower isc:BaseWenlockSP ;
   skos:narrower isc:BaseWordianSP ;
   skos:prefLabel "Stratigraphic points"@en ;
-  skos:topConceptOf ts:gts2018 ;
+  skos:topConceptOf ts:gts2019 ;
 .
 isc:Stratotypes
   a skos:Collection ;
@@ -12556,7 +12559,7 @@ isc:Telychian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Silurian ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.4.4.1"^^gts:EraCode ;
   skos:prefLabel "Telych"@cs ;
   skos:prefLabel "Telych"@fi ;
@@ -12600,7 +12603,7 @@ isc:Terreneuvian
   skos:broader isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:CambrianStage2 ;
   skos:narrower isc:Fortunian ;
   skos:notation "a1.1.3.6.4"^^gts:EraCode ;
@@ -12652,7 +12655,7 @@ isc:Thanetian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.3.1"^^gts:EraCode ;
   skos:prefLabel "Tanet"@pl ;
   skos:prefLabel "Tanetiano"@pt ;
@@ -12697,7 +12700,7 @@ isc:Tithonian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.1.1"^^gts:EraCode ;
   skos:prefLabel "Tithon"@cs ;
   skos:prefLabel "Tithon"@fi ;
@@ -12743,7 +12746,7 @@ isc:Toarcian
   skos:broaderTransitive isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.2.3.1"^^gts:EraCode ;
   skos:prefLabel "Toarc"@fi ;
   skos:prefLabel "Toarc"@no ;
@@ -12787,7 +12790,7 @@ isc:Tonian
   skos:broader isc:Neoproterozoic ;
   skos:broaderTransitive isc:Precambrian ;
   skos:broaderTransitive isc:Proterozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a2.1.1.3"^^gts:EraCode ;
   skos:prefLabel "Ton"@cs ;
   skos:prefLabel "Ton"@et ;
@@ -12832,7 +12835,7 @@ isc:Tortonian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Torton"@cs ;
   skos:prefLabel "Torton"@fi ;
@@ -12878,7 +12881,7 @@ isc:Tournaisian
   skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.2.3"^^gts:EraCode ;
   skos:prefLabel "Tournai"@cs ;
   skos:prefLabel "Tournais"@et ;
@@ -12924,7 +12927,7 @@ isc:Tremadocian
   skos:broaderTransitive isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.5.3.2"^^gts:EraCode ;
   skos:prefLabel "Tremadoc"@fi ;
   skos:prefLabel "Tremadoc"@no ;
@@ -12968,7 +12971,7 @@ isc:Triassic
   owl:sameAs <http://dbpedia.org/resource/Triassic> ;
   skos:broader isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:LowerTriassic ;
   skos:narrower isc:MiddleTriassic ;
   skos:narrower isc:UpperTriassic ;
@@ -13030,7 +13033,7 @@ isc:Turonian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.1.5"^^gts:EraCode ;
   skos:prefLabel "Tuironiën"@nl ;
   skos:prefLabel "Turon"@cs ;
@@ -13078,7 +13081,7 @@ isc:UpperCretaceous
   skos:broader isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Campanian ;
   skos:narrower isc:Cenomanian ;
   skos:narrower isc:Coniacian ;
@@ -13138,7 +13141,7 @@ isc:UpperDevonian
   skos:broader isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Famennian ;
   skos:narrower isc:Frasnian ;
   skos:notation "a1.1.3.3.1"^^gts:EraCode ;
@@ -13190,7 +13193,7 @@ isc:UpperJurassic
   skos:broader isc:Jurassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Kimmeridgian ;
   skos:narrower isc:Oxfordian ;
   skos:narrower isc:Tithonian ;
@@ -13242,7 +13245,7 @@ isc:UpperMississippian
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Serpukhovian ;
   skos:notation "x1.1.3.2.2.1"^^gts:EraCode ;
   skos:prefLabel "Late Mississippian"@en ;
@@ -13277,7 +13280,7 @@ isc:UpperOrdovician
   skos:broader isc:Ordovician ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Hirnantian ;
   skos:narrower isc:Katian ;
   skos:narrower isc:Sandbian ;
@@ -13331,7 +13334,7 @@ isc:UpperPennsylvanian
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Gzhelian ;
   skos:narrower isc:Kasimovian ;
   skos:notation "x1.1.3.2.1.1"^^gts:EraCode ;
@@ -13383,7 +13386,7 @@ isc:UpperPleistocene
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:broaderTransitive isc:Quaternary ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.1.2.1"^^gts:EraCode ;
   skos:prefLabel "Apatinis Pleistocenas"@lt ;
   skos:prefLabel "Hiline pleistotseen"@et ;
@@ -13427,7 +13430,7 @@ isc:UpperTriassic
   skos:broader isc:Triassic ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Carnian ;
   skos:narrower isc:Norian ;
   skos:narrower isc:Rhaetian ;
@@ -13476,7 +13479,7 @@ isc:Valanginian
   skos:broaderTransitive isc:Cretaceous ;
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.2.1.2.5"^^gts:EraCode ;
   skos:prefLabel "Valangin"@cs ;
   skos:prefLabel "Valangin"@fi ;
@@ -13522,7 +13525,7 @@ isc:Visean
   skos:broaderTransitive isc:Mississippian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.2.2.2"^^gts:EraCode ;
   skos:prefLabel "Vis"@fi ;
   skos:prefLabel "Vise"@et ;
@@ -13566,7 +13569,7 @@ isc:Wenlock
   skos:broader isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:narrower isc:Homerian ;
   skos:narrower isc:Sheinwoodian ;
   skos:notation "a1.1.3.4.3"^^gts:EraCode ;
@@ -13616,7 +13619,7 @@ isc:Wordian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.2.2"^^gts:EraCode ;
   skos:prefLabel "Vordis"@lt ;
   skos:prefLabel "Word"@cs ;
@@ -13660,7 +13663,7 @@ isc:Wuchiapingian
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.1.1.2"^^gts:EraCode ;
   skos:prefLabel "VuĿiapingis"@lt ;
   skos:prefLabel "Wuchiaiping"@fi ;
@@ -13726,7 +13729,7 @@ isc:Wuliuan
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.3.6.2.3"^^gts:EraCode ;
   skos:prefLabel "Wuliuan"@en ;
   time:hasBeginning isc:BaseMiaolingian ;
@@ -13750,7 +13753,7 @@ isc:Ypresian
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Paleogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.3.2.4"^^gts:EraCode ;
   skos:prefLabel "Ipr"@pl ;
   skos:prefLabel "Ipresiano"@pt ;
@@ -13795,7 +13798,7 @@ isc:Zanclean
   skos:broaderTransitive isc:Cenozoic ;
   skos:broaderTransitive isc:Neogene ;
   skos:broaderTransitive isc:Phanerozoic ;
-  skos:inScheme ts:gts2018 ;
+  skos:inScheme ts:gts2019 ;
   skos:notation "a1.1.1.2.1.2"^^gts:EraCode ;
   skos:prefLabel "Brunssummiën"@nl ;
   skos:prefLabel "Zancl"@cs ;
@@ -13830,7 +13833,7 @@ isc:Zanclean
 gts:StratigraphicPoint
   rdfs:subClassOf skos:Concept ;
 .
-ts:gts2018
+ts:gts2019
   a void:Dataset ;
   a gts:GeologicTimescale ;
   a owl:Ontology ;
@@ -13840,22 +13843,21 @@ ts:gts2018
   dct:contributor "International Commission on Stratigraphy"@en ;
   dct:contributor "OneGeology Europe preferred labels merged in by S.M. Richard."@en ;
   dct:contributor "S M Richard"@en ;
-  dct:created "2017-03-31"^^xsd:date ;
+  dct:created "2019-05-01"^^xsd:date ;
   dct:creator "Simon J D COX, CSIRO"@en ;
   dct:description "RDF representation of the Geologic Time Scale, as defined in the International Chronostratigraphic Chart (ICC) from the International Commission on Stratigraphy (ICS). The ICC embraces both chronostratigraphic (time-rock) units and their equivalent geochronologic (geologic-time) units, the former being related to the ‘Stratigraphic points’ referred to below, and the latter (geochronologic units) being employed in this RDF representation."@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   dct:modified "2020-01-13"^^xsd:date ;
-  dct:replaces ts:isc2018 ;
-  dct:rights "Original version Copyright © 2018 International Commission on Stratigraphy"@en ;
-  dct:rights "RDF version Copyright © 2019 CSIRO, Arizona Geological Survey, IUGS"@en ;
-  dct:rights "This Ontology is made available under the Open Data Commons Attribution License: http://opendatacommons.org/licenses/by/1.0"@en ;
+  dct:replaces ts:gts2018 ;
+  dct:rights "Original version Copyright © 2019 International Commission on Stratigraphy"@en ;
+  dct:rights "RDF version Copyright © 2020 CSIRO, IUGS"@en ;
   dct:source "Cohen, K.M., Finney, S.C., Gibbard, P.L. & Fan, J.-X. (2013; updated) The ICS International Chronostratigraphic Chart. Episodes 36: 199-204."@en ;
-  dct:source "International Chronostratigraphic Chart 2018"@en ;
+  dct:source "International Chronostratigraphic Chart 2019"@en ;
   dct:subject <http://dbpedia.org/page/Geologic_time_scale> ;
-  dct:title "Geologic Time Scale (2018)"@en ;
+  dct:title "Geologic Time Scale (2019)"@en ;
   vann:preferredNamespacePrefix "isc"@en ;
   vann:preferredNamespaceUri isc: ;
-  void:dataDump <https://github.com/GeoscienceAustralia/geosciml.org/blob/master/resource/static/vocabulary/timescale/isc2018-1.ttl> ;
+  void:dataDump <https://github.com/dr-shorthair/timescale-data/rdf/isc2019.ttl> ;
   void:exampleResource isc:BaseOrdovician ;
   void:exampleResource isc:BaseOrdovicianSP ;
   void:exampleResource isc:BaseOrdovicianTime ;
@@ -13985,19 +13987,20 @@ ts:gts2018
   thors:referencePoint isc:BaseWordian ;
   thors:referencePoint isc:FormationOfEarth ;
   thors:referencePoint isc:Present ;
-  rdfs:isDefinedBy ts:gts2018 ;
-  rdfs:label "Geologic Time Scale (2018)"@en ;
-  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/2018> ;
+  rdfs:isDefinedBy ts:gts2019 ;
+  rdfs:label "Geologic Time Scale (2019)"@en ;
+  rdfs:seeAlso <http://resource.geosciml.org/classifier/ics/ischart/2019> ;
   rdfs:seeAlso <http://stratigraphy.org/GSSP/index.html> ;
-  rdfs:seeAlso <http://stratigraphy.org/ICSchart/ChronostratChart2018-08.pdf> ;
+  rdfs:seeAlso <http://stratigraphy.org/ICSchart/ChronostratChart2019-05.pdf> ;
   rdfs:seeAlso <http://www.episodes.co.in/contents/2013/september/p199-204.pdf> ;
   rdfs:seeAlso <http://www.stratigraphy.org/GSSP/index.html> ;
+  owl:imports <file:///W3C%20Resources/doap.rdf> ;
   owl:imports <http://resource.geosciml.org/ontology/timescale/gts/w3c> ;
   owl:imports <http://www.opengis.net/ont/geosparql> ;
   owl:imports <https://def.isotc211.org/iso19108/2006/TemporalReferenceSystem.rdf> ;
-  owl:sameAs <http://resource.geosciml.org/classifierscheme/ics/2018/ischart> ;
-  owl:versionInfo "isc2018:2019-06-10" ;
-  skos:altLabel "International Chronostratigraphic Chart (2018)"@en ;
+  owl:sameAs <http://resource.geosciml.org/classifierscheme/ics/2019/ischart> ;
+  owl:versionInfo "gts2019:2020-01-13" ;
+  skos:altLabel "International Chronostratigraphic Chart (2019)"@en ;
   skos:changeNote """1. THORS ontology updated to align with OWL-Time (instead of ISO 19108).
 2. GTS ontology updated to use sam-lite (instead of OWL implementation of ISO 19156) with a lightweight SOSA alignment
 3. Spatial data uses GeoSPARQL (instead of OWL implementation of ISO 19107)"""@en ;
@@ -14015,16 +14018,25 @@ nested sub-collections in GeochronologicEra"""@en ;
   skos:changeNote """2019-06-10 - This revision adjusts the nomenclature of units to use only chronologic terminology rather than stratigraphic terminology [e.g. Cambrian-Age 2 in place of Cambrian-Stage 2; Cambrian-Epoch 2 in place of Cambrian-Series 2; Early/Late in place of Lower/Upper (namely in application to Epoch/time units rather than their equivalent Series/stratigraphic units—e.g. Early Jurassic Epoch rather than Lower Jurassic Series)]; and the whole artefact is renamed ‘Geologic Time Scale’. 
 Also: changed samfl:shape --> geo:hasGeometry"""@en ;
   skos:changeNote "2020-01-13 - fix errors in Permian/Carboniferous - see https://github.com/GeoscienceAustralia/geosciml.org/issues/3#issuecomment-560054965"@en ;
+  skos:changeNote "2020-01-13 - updated to 2019 version see http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018-2019.txt"@en ;
   skos:changeNote "Added informal definition of chronometric temporal reference system - Millions of years, counting backwards from 1950"@en ;
   skos:changeNote "See <http://stratigraphy.org/ICSchart/ChangeLog2012-2013-2014-2015-2016-2017-2018.txt> for changes from prior versions"@en ;
-  skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/GeoscienceAustralia/geosciml.org/blob/master/resource/static/vocabulary/timescale/\">maintained in GitHub</a></p>
+  skos:editorialNote """<p>This dataset is being <a href=\"https://github.com/dr-shorthair/timescale-data/\">maintained in GitHub</a></p>
 
-<p>Please report errors, or propose improvements, using the <a href=\"https://github.com/GeoscienceAustralia/geosciml.org/issues\">GitHub issue-tracker</a>."""^^rdf:HTML ;
+<p>Please report errors, or propose improvements, using the <a href=\"https://github.com/dr-shorthair/timescale-data/issues\">GitHub issue-tracker</a>."""^^rdf:HTML ;
   skos:hasTopConcept isc:Boundary-unspecified ;
   skos:hasTopConcept isc:Phanerozoic ;
   skos:hasTopConcept isc:Precambrian ;
   skos:hasTopConcept isc:Stratotype-unspecified ;
-  skos:prefLabel "Geological Timescale (2018)"@en ;
+  skos:prefLabel "Geological Timescale (2019)"@en ;
+  prov:wasGeneratedBy [
+      a doap:Project ;
+      doap:repository [
+          a doap:GitRepository ;
+          doap:browse <https://github.com/dr-shorthair/timescale-data/> ;
+          doap:location <https://github.com/dr-shorthair/timescale-data.git> ;
+        ] ;
+    ] ;
 .
 time:TimePosition
   rdfs:subClassOf skos:Concept ;
