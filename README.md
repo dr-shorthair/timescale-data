@@ -6,3 +6,4 @@ ISC timescale vocabularies for ISC2004 through ISC2016-10 are formalized accordi
 
 ISC Timescale vocabularies after ISC2016-12 are formalized according to geologic timescale ontology http://resource.geosciml.org/ontology/timescale/gts/w3c, which is updated to align with OWL-Time (http://www.w3.org/2006/time) instead of ISO 19108, and imports SOSA (http://www.w3.org/ns/sosa/), a lightweight alignment with ISO19156.   Spatial data uses GeoSPARQL (instead of OWL implementation of ISO 19107)
 
+**NOTE:** this repository is a subtree forked from https://github.com/GeoscienceAustralia/geosciml.org/tree/master/resource/static/vocabulary/timescale
